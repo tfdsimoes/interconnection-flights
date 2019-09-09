@@ -15,10 +15,13 @@ To run the tests run the following command:
 ```bash
 $ ./mvnw test
 ```
+There is unit tests and integration tests.
+
 ## Endpoints
 There is only one end point in all the project
-
+```text
 http://localhost:8080/flights/interconnections?departure={departure}&arrival={arrival}&departureDateTime={departureDateTime}&arrivalDateTime={arrivalDateTime}
+```
 
 * departure - a departure airport IATA code
 * departureDateTime - a departure datetime in the departure airport timezone in
